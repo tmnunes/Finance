@@ -1,0 +1,16 @@
+C:\Users\tnunes\Documents\GitHub\Random-Projects\FinanceWeb\src\Console\bin\Debug\netcoreapp1.0\Console.deps.json
+C:\Users\tnunes\Documents\GitHub\Random-Projects\FinanceWeb\src\Console\bin\Debug\netcoreapp1.0\Console.runtimeconfig.json
+C:\Users\tnunes\Documents\GitHub\Random-Projects\FinanceWeb\src\Console\bin\Debug\netcoreapp1.0\Console.runtimeconfig.dev.json
+C:\Users\tnunes\Documents\GitHub\Random-Projects\FinanceWeb\src\Console\bin\Debug\netcoreapp1.0\Console.dll
+C:\Users\tnunes\Documents\GitHub\Random-Projects\FinanceWeb\src\Console\bin\Debug\netcoreapp1.0\Console.pdb
+C:\Users\tnunes\Documents\GitHub\Random-Projects\FinanceWeb\src\Console\bin\Debug\netcoreapp1.0\Console.xml
+C:\Users\tnunes\Documents\GitHub\Random-Projects\FinanceWeb\src\Console\bin\Debug\netcoreapp1.0\FinanceWeb.dll
+C:\Users\tnunes\Documents\GitHub\Random-Projects\FinanceWeb\src\Console\bin\Debug\netcoreapp1.0\FinanceWeb.pdb
+C:\Users\tnunes\Documents\GitHub\Random-Projects\FinanceWeb\src\Console\obj\Debug\netcoreapp1.0\Console.csprojAssemblyReference.cache
+C:\Users\tnunes\Documents\GitHub\Random-Projects\FinanceWeb\src\Console\obj\Debug\netcoreapp1.0\Console.csproj.CoreCompileInputs.cache
+C:\Users\tnunes\Documents\GitHub\Random-Projects\FinanceWeb\src\Console\obj\Debug\netcoreapp1.0\Console.AssemblyInfoInputs.cache
+C:\Users\tnunes\Documents\GitHub\Random-Projects\FinanceWeb\src\Console\obj\Debug\netcoreapp1.0\Console.AssemblyInfo.cs
+C:\Users\tnunes\Documents\GitHub\Random-Projects\FinanceWeb\src\Console\obj\Debug\netcoreapp1.0\Console.csproj.CopyComplete
+C:\Users\tnunes\Documents\GitHub\Random-Projects\FinanceWeb\src\Console\obj\Debug\netcoreapp1.0\Console.dll
+C:\Users\tnunes\Documents\GitHub\Random-Projects\FinanceWeb\src\Console\obj\Debug\netcoreapp1.0\Console.xml
+C:\Users\tnunes\Documents\GitHub\Random-Projects\FinanceWeb\src\Console\obj\Debug\netcoreapp1.0\Console.pdb

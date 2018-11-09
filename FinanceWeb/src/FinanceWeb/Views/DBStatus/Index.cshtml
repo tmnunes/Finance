@@ -1,0 +1,145 @@
+﻿@model  Stats
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    ViewBag.Title = "DB Status";
+}
+
+<style type="text/css">
+    table, tr {
+        width: 80%;
+    }
+
+    th, td {
+        width: 20%;
+    }
+
+    th {
+        background-color: #4CAF50;
+    }
+
+    td {
+        background-color: whitesmoke;
+        border: 1px solid #4CAF50;
+    }
+</style>
+
+<h2>Stats</h2>
+<div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Stats DB</th>
+            <th>Count</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Annual Data</td>
+            <td>@Model.AnnualCount</td>
+        </tr>
+        <tr>
+            <td>Future Data</td>
+            <td>@Model.FutureCount</td>
+        </tr>
+        <tr>
+            <td>Past Data</td>
+            <td>@Model.PastCount</td>
+        </tr>
+        <tr>
+            <td>Real Data</td>
+            <td>@Model.RealCount</td>
+        </tr>
+        <tr>
+            <td>Score Data</td>
+            <td>@Model.ScoreDataCount</td>
+        </tr>
+        <tr>
+            <td>Seasonality Data</td>
+            <td>@Model.SeasonalityDataCount</td>
+        </tr>
+        <tr>
+            <td>Stock Data</td>
+            <td>@Model.StockDataCount</td>
+        </tr>
+        <tr>
+            <td>Stock Symbol</td>
+            <td>@Model.StockCount</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h3 class="first">Basic</h3>
+    <p-dataTable [value]="cars">
+        <p-column field="vin" header="Vin"></p-column>
+        <p-column field="year" header="Year"></p-column>
+        <p-column field="brand" header="Brand"></p-column>
+        <p-column field="color" header="Color"></p-column>
+    </p-dataTable>
+
+    @*<div>
+                @Html.ActionLink("Add Call", "Register", "Call")
+            </div>*@
+        @*@using (Html.BeginForm())
+            {
+                <p>
+                    Account Name: @Html.TextBox("SearchString")
+                    <input type="submit" value="Search" />
+                </p>
+            }*@
+        @*<div>
+                @if (Model != null)
+                {
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Account Id</th>
+                                <th>Duration</th>
+                                <th>TD Phone Number</th>
+                                <th>Customer Phone Number</th>
+                                <th>Forwarded Phone Number</th>
+                                <th>Status</th>
+                                <th>Type</th>
+                                <th>Price</th>
+                                <th>@Html.ActionLink("Timestamp", "Index", new { sortOrder = ViewBag.DateSortParm })</th>
+                                <th colspan="2">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model != null)
+                        {
+                            foreach (var Call in Model)
+                            {
+                                    <tr>
+                                        <td>@Call.Id</td>
+                                        <td>@Call.Account_id</td>
+                                        <td>@Call.Duration</td>
+                                        <td>@Call.TD_phone_number</td>
+                                        <td>@Call.Customer_phone_number</td>
+                                        <td>@Call.Forwarded_phone_number</td>
+                                        <td>@Call.Status</td>
+                                        <td>@Call.Type</td>
+                                        <td>@Call.Price</td>
+                                        <td>@Call.Timestamp</td>
+                                        <td>
+                                            <a href="@Url.Action("Edit", "Call", new {ID = @Call.Id})">Edit</a>
+                                            <a onclick="return confirm('Are you sure about record Deletion ??');" href="@Url.Action("Delete", "Call", new {ID = @Call.Id})">Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                }
+            </div>*@
+        @*<div class="center">
+                <ul class="pagination">
+                    <li><a onclick="" href="@Url.Action("Index", "Call", new {skip = "-2" })">First Page</a></li>
+                    <li><a onclick="" href="@Url.Action("Index", "Call", new {skip = "-1" })">Previous Page</a></li>
+                    <li><a onclick="" href="@Url.Action("Index", "Call", new {skip = "1" })">Next Page</a></li>
+                    <li><a onclick="" href="@Url.Action("Index", "Call", new {skip = "2"})">Last Page</a></li>
+                </ul>
+            </div>*@
+</div>

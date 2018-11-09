@@ -1,0 +1,1 @@
+dotnet C:\Users\tnunes\Documents\GitHub\Random-Projects\FinanceWeb\src\Console\bin\Release\PublishOutput\console\Console.dll

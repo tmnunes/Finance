@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Console</name>
+    </assembly>
+    <members>
+        <member name="F:ConsoleGetter.OutsideCom._logger">
+            <summary>
+            The logger
+            </summary>
+        </member>
+        <member name="M:ConsoleGetter.OutsideCom.RequestFinanchill(FinanceWeb.Models.StockSymbol)">
+            <summary>
+            Requests the financhill.
+            </summary>
+            <param name="args">The arguments.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleGetter.OutsideCom.RequestFinanchillScore(FinanceWeb.Models.StockSymbol)">
+            <summary>
+            Requests the financhill score.
+            </summary>
+            <param name="args">The arguments.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleGetter.OutsideCom.GetDataGFinance(FinanceWeb.Models.StockSymbol)">
+            <summary>
+            Gets the data g finance.
+            </summary>
+            <param name="args">The arguments.</param>
+            <returns></returns>
+        </member>
+        <member name="F:ConsoleGetter.Program._logger">
+            <summary>
+            The logger
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadProcess">
+            <summary>
+            The thread process
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._thread">
+            <summary>
+            The thread
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadA">
+            <summary>
+            The thread a
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadB">
+            <summary>
+            The thread b
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadC">
+            <summary>
+            The thread c
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadD">
+            <summary>
+            The thread d
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadF">
+            <summary>
+            The thread f
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadE">
+            <summary>
+            The thread e
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadG">
+            <summary>
+            The thread g
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadH">
+            <summary>
+            The thread h
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadI">
+            <summary>
+            The thread i
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadJ">
+            <summary>
+            The thread j
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadK">
+            <summary>
+            The thread k
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadL">
+            <summary>
+            The thread l
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadM">
+            <summary>
+            The thread m
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadN">
+            <summary>
+            The thread n
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadO">
+            <summary>
+            The thread o
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadP">
+            <summary>
+            The thread p
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadQ">
+            <summary>
+            The thread q
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadR">
+            <summary>
+            The thread r
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadS">
+            <summary>
+            The thread s
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadT">
+            <summary>
+            The thread t
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadU">
+            <summary>
+            The thread u
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadV">
+            <summary>
+            The thread v
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadW">
+            <summary>
+            The thread w
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadX">
+            <summary>
+            The thread x
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadY">
+            <summary>
+            The thread y
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.Program._threadZ">
+            <summary>
+            The thread z
+            </summary>
+        </member>
+        <member name="M:ConsoleGetter.Program.Main(System.String[])">
+            <summary>
+            Mains the specified arguments.
+            </summary>
+            <param name="args">The arguments.</param>
+        </member>
+        <member name="M:ConsoleGetter.Program.ThLoad">
+            <summary>
+            Thes the load.
+            </summary>
+        </member>
+        <member name="M:ConsoleGetter.Program.Thloop(System.String)">
+            <summary>
+            Thloops the specified letter.
+            </summary>
+            <param name="letter">The letter.</param>
+        </member>
+        <member name="M:ConsoleGetter.Program.ThProcessRealData">
+            <summary>
+            Thes the process real data.
+            </summary>
+        </member>
+        <member name="M:ConsoleGetter.Program.ProcessRealData">
+            <summary>
+            Processes the real data.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleGetter.Program.ThProcessData">
+            <summary>
+            Thes the process data.
+            </summary>
+        </member>
+        <member name="M:ConsoleGetter.Program.ProcessData">
+            <summary>
+            Processes the data.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleGetter.Program.InjectorAnnualData(ConsoleGetter.DataSeasonality)">
+            <summary>
+            Injectors the annual data.
+            </summary>
+            <param name="objResponseSeasonality">The object response seasonality.</param>
+            <returns></returns>
+        </member>
+        <member name="F:ConsoleGetter.ServiceCom._logger">
+            <summary>
+            The logger
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.ServiceCom.UrlStock">
+            <summary>
+            The URL stock
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.ServiceCom.UrlSeasonality">
+            <summary>
+            The URL seasonality
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.ServiceCom.UrlScore">
+            <summary>
+            The URL score
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.ServiceCom.UrlStockYahoo">
+            <summary>
+            The URL stock yahoo
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.ServiceCom.UrlRealData">
+            <summary>
+            The URL real data
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.ServiceCom.UrlLogin">
+            <summary>
+            The URL login
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.ServiceCom.UrlAnnual">
+            <summary>
+            The URL annual
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.ServiceCom._stocks">
+            <summary>
+            The stocks
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.ServiceCom._stocks_aux">
+            <summary>
+            The stocks aux
+            </summary>
+        </member>
+        <member name="F:ConsoleGetter.ServiceCom.stock">
+            <summary>
+            The stock
+            </summary>
+        </member>
+        <member name="M:ConsoleGetter.ServiceCom.LoadStocks">
+            <summary>
+            Loads the stocks.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleGetter.ServiceCom.InsertSeasonality(FinanceWeb.Models.StockSeasonalityData)">
+            <summary>
+            Inserts the seasonality.
+            </summary>
+            <param name="data">The data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleGetter.ServiceCom.GetFirstSeasonality">
+            <summary>
+            Gets the first seasonality.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleGetter.ServiceCom.InsertScoreData(FinanceWeb.Models.StockScoreData)">
+            <summary>
+            Inserts the score data.
+            </summary>
+            <param name="data">The data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleGetter.ServiceCom.GetFirstScore">
+            <summary>
+            Gets the first score.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleGetter.ServiceCom.GetScore(System.String)">
+            <summary>
+            Gets the score.
+            </summary>
+            <param name="stock">The stock.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleGetter.ServiceCom.GetFirstStockData">
+            <summary>
+            Gets the first stock data.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleGetter.ServiceCom.InsertStockData(FinanceWeb.Models.StockData)">
+            <summary>
+            Inserts the stock data.
+            </summary>
+            <param name="data">The data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleGetter.ServiceCom.DeleteStockData(System.String)">
+            <summary>
+            Deletes the stock data.
+            </summary>
+            <param name="id">The identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleGetter.ServiceCom.InsertRealData(FinanceWeb.Models.StockData)">
+            <summary>
+            Inserts the real data.
+            </summary>
+            <param name="data">The data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleGetter.ServiceCom.InsertAnnualData(FinanceWeb.Models.AnnualData)">
+            <summary>
+            Inserts the annual data.
+            </summary>
+            <param name="data">The data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleGetter.ServiceCom.GetAnnualDatabyStock(System.String)">
+            <summary>
+            Gets the annual databy stock.
+            </summary>
+            <param name="stock">The stock.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleGetter.ServiceCom.InsertFutureData(FinanceWeb.Models.FutureData)">
+            <summary>
+            Inserts the annual data.
+            </summary>
+            <param name="data">The data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleGetter.ServiceCom.GetFutureData(System.String)">
+            <summary>
+            Gets the annual databy stock.
+            </summary>
+            <param name="stock">The stock.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleGetter.ServiceCom.Login">
+            <summary>
+            Logins this instance.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
